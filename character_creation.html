@@ -57,17 +57,31 @@
                 </div>
             </div>
         </nav>
-        <div class="Hero">
-            <div class="gameTitle">
-                <h1>That Time You Got Reincarnated As A Hero</h1>
 
-                <a href="/rpg/character_creation.html"><button class="btn btn-primary">Start Adventure</button></a>
-            </div>
-            <img class="background-landing" alt="">
+        <div id="createForm">
+            <h2>Create your Character</h2>
+            <form action="#">
+                <label for="name">What is your name:
+                    <input type="text">
+                </label>
 
+                <label for="class">Choose your class:
+                    <select name="classes" id="classType">
+
+                    </select>
+                </label>
+                <button class="btn btn-primary">Create Player</button>
+            </form>
         </div>
 
-
+        <div id="stats">
+            <h3>Stats</h3>
+            <p id="magicPoints"></p>
+            <p id="healthPoints"></p>
+            <p id="attackStr"></p>
+            <p id="accuracy"></p>
+            <p id="agility"></p>
+        </div>
 
 
     </div>

@@ -1,7 +1,13 @@
+* {
+    
+}
+
 #gameTitle {
     display: flex;
     justify-content: center;
     background-color: silver;
+    align-items: center;
+    align-content: center;
 }
 
 #createForm {
@@ -13,4 +19,21 @@
     margin: 50px 0;
     padding: 15px 20px;
     width: 500px;
+}
+
+.Hero {
+    margin: 55px 150px;
+    background: url("https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZhbnRhc3klMjAlMjBiYWNrZ3JvdW5kJTIwY2FzdGxlfGVufDB8fDB8fHww");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1225px;
+    display: flex;
+    justify-content: center;
+    background-color: silver;
+}
+
+body {
+    background-color: rgb(43, 42, 42);
+    color: white;
 }
