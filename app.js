@@ -1,5 +1,5 @@
 const classType = [
-    "Mage", "Warrior", "Sword master", "Necromancer", "Dragon-Kind", "Monster", "Healer"
+    "Mage", "Warrior", "Demon", "Necromancer", "Draconian", "Monster", "Assassin", "Demon"
 ];
 
 const rank = [
@@ -17,23 +17,75 @@ for (const classItem of classType) {
 
 
 
-const player = {
+const mage = {
     name: "",
-    magicPoints: 500,
-    healthPoints: 500,
-    attackStr: {
-        light: 25,
-        heavy: 50
-    },
-    class: {
-        mainClass: "",
-        subClass: ""
-    },
+    magicPoints: 200,
+    healthPoints: 100,
+    attackStr: 50,
+    accuracy: 100,
+    agility: 50,
+    class: classType[0],
     rank: rank[0],
-    uid: ""
+}
 
 
+const warrior = {
+    name: "",
+    magicPoints: 100,
+    healthPoints: 100,
+    attackStr: 100,
+    accuracy: 100,
+    agility: 100,
+    class: classType[1],
+    rank: rank[0],
+}
 
+
+const necromancer = {
+    name: "",
+    magicPoints: 225,
+    healthPoints: 75,
+    attackStr: 50,
+    accuracy: 100,
+    agility: 50,
+    class: classType[3],
+    rank: rank[0],
+}
+
+
+const draconian = {
+    name: "",
+    magicPoints: 150,
+    healthPoints: 225,
+    attackStr: 50,
+    accuracy: 50,
+    agility: 25,
+    class: classType[4],
+    rank: rank[0],
+}
+
+
+const assassin = {
+    name: "",
+    magicPoints: 50,
+    healthPoints: 75,
+    attackStr: 150,
+    accuracy: 100,
+    agility: 125,
+    class: classType[6],
+    rank: rank[0],
+}
+
+
+const demon = {
+    name: "",
+    magicPoints: 175,
+    healthPoints: 100,
+    attackStr: 75,
+    accuracy: 100,
+    agility: 50,
+    class: classType[2],
+    rank: rank[0],
 }
 
 const slime = {
