@@ -1,0 +1,16 @@
+#gameTitle {
+    display: flex;
+    justify-content: center;
+    background-color: silver;
+}
+
+#createForm {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border: black solid 1px;
+    margin: 50px 0;
+    padding: 15px 20px;
+    width: 500px;
+}
